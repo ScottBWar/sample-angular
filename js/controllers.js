@@ -2,7 +2,7 @@ var myApp = angular.module('myApp', []);
 
 myApp.controller('MyController', function MyController($scope){
 
-	$scope.characters = 
+	$scope.characters =[
 {
 	"name":"Dandy Warhol",
 	"shortname":"dandy",
@@ -11,21 +11,21 @@ myApp.controller('MyController', function MyController($scope){
 	},
 	{
 	"name":"Ouija Bjord",
-	"shortname":"Ouija",
+	"shortname":"ouija",
 	"reknown":"Death Cleric",
 	"bio":"a really weird girl who sells arts and crafts"
 	},
 	{
 	"name":"Karma Le Khayturn",
-	"shortname":"Karma",
+	"shortname":"karma",
 	"reknown":"Monk",
 	"bio":"a very moody person"
 	},
 	{
 	"name":"Chuffy Lickwound",
-	"shortname":"Chuffy",
+	"shortname":"chuffy",
 	"reknown":"Goblin",
 	"bio":"a sadistic, horrible little thing"
-	};
+	}];
 
 });
